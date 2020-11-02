@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;600&display=swap');
-
 body {
-    font-family: Barlow;
+    font-family: 'Barlow', sans-serif;
     margin: 0;
 }
 
@@ -11,6 +9,10 @@ body {
     background-color: #8E7CC3;
     padding: 50px;
     opacity: 0;
+}
+
+#headshot {
+    border-radius: 50%;
 }
 
 .section {
@@ -24,10 +26,6 @@ body {
     color: #8E7CC3;
 }
 
-.section-content {
-    flex: 1;
-}
-
 .right-margin {
     margin-right: 40px;
 }
@@ -39,13 +37,4 @@ body {
 .section-image {
     display: flex;
     vertical-align: middle;
-}
-
-#headshot {
-    border-radius: 50%;
-}
-
-#footer {
-    background-color: #8E7CC3;
-    padding: 20px;
 }
